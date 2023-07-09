@@ -8,11 +8,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3%;
 }
 
 a {
     text-decoration-line: none;
-
 }
 
 .header__list {
@@ -43,8 +43,8 @@ a {
 
 .main-ttl__h1 {
     font-size: 5vw;
-    font-family: MV Boli;
-    margin-bottom: 20%;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-bottom: 10%;
     line-height: 150%;
     color: rgb(228, 21, 132);
 }
@@ -69,12 +69,13 @@ a {
     margin-bottom: 1%;
     padding-top: 10%;
     font-size: 1.5vw;
-    font-family: MV Boli;
+    font-family: 'Gloria Hallelujah', cursive;
     color: rgb(228, 21, 132);
 }
 
 .news__jp-ttl {
     margin-left: 15%;
+    margin-bottom: 3%;
     font-size: 2vw;
     color: dimgray;
 }
@@ -103,7 +104,6 @@ a {
     padding: 0% 2%;
     border-radius: 30px;
     color: white;
-
 }
 
 .news__content {
@@ -130,7 +130,7 @@ a {
     margin: 0px auto;
     margin-bottom: 1%;
     font-size: 1.5vw;
-    font-family: MV Boli;
+    font-family: 'Gloria Hallelujah', cursive;
     color: rgb(228, 21, 132);
     width: 5%;
 }
@@ -167,7 +167,7 @@ a {
     margin-bottom: 1%;
     padding-top: 10%;
     font-size: 1.5vw;
-    font-family: MV Boli;
+    font-family: 'Gloria Hallelujah', cursive;
     color: rgb(228, 21, 132);
 }
 
@@ -176,7 +176,6 @@ a {
     margin-bottom: 3%;
     font-size: 2vw;
     color: dimgray;
-
 }
 
 .service {
@@ -196,7 +195,6 @@ a {
     grid-column: 1/2;
     grid-row: 1/3;
     background-color: rgb(228, 21, 132);
-
 }
 
 .box2 {
@@ -226,8 +224,6 @@ a {
     padding: 5% 8% 5% 8%;
     line-height: 150%;
 }
-
-.box1__img {}
 
 .box1__img1 {
     width: 40%;
@@ -269,7 +265,7 @@ a {
     margin-bottom: 1%;
     padding-top: 5%;
     font-size: 1.5vw;
-    font-family: MV Boli;
+    font-family: 'Gloria Hallelujah', cursive;
     color: rgb(228, 21, 132);
 }
 
@@ -347,7 +343,7 @@ a {
     margin-bottom: 1%;
     padding-top: 5%;
     font-size: 1.5vw;
-    font-family: MV Boli;
+    font-family: 'Gloria Hallelujah', cursive;
     color: rgb(228, 21, 132);
 }
 
@@ -358,9 +354,9 @@ a {
     color: dimgray;
 }
 
-table,
-th,
-td {
+.company__table,
+.company__th,
+.company__td {
     border: 1px solid lightgray;
 }
 
@@ -466,7 +462,7 @@ td {
     padding: 2% 0;
 }
 
-small {
+.footer__small__content {
     color: gray;
     font-size: 1vw;
     text-align: center;
